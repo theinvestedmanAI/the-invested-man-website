@@ -608,6 +608,35 @@ a:hover { text-decoration: underline; }
   line-height: 1.65;
 }
 
+/* ── PARTNER LOGOS GRID ─────────────────────────────────────── */
+.partner-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.partner-logo-tile {
+  background: var(--white);
+  border: 1px solid #E8E0F0;
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.partner-logo-tile img {
+  max-height: 64px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .partner-logos-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ── VIDEO SECTION ──────────────────────────────────────────── */
 .section-video-bg {
   background: var(--dark-purple);
