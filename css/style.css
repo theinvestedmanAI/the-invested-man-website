@@ -616,18 +616,17 @@ a:hover { text-decoration: underline; }
 }
 
 .partner-logo-tile {
-  background: var(--white);
-  border: 1px solid #E8E0F0;
+  background: var(--dark-purple);
   border-radius: var(--radius);
-  padding: 24px;
+  padding: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100px;
+  min-height: 120px;
 }
 
 .partner-logo-tile img {
-  max-height: 64px;
+  max-height: 90px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
