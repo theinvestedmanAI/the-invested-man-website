@@ -616,9 +616,10 @@ a:hover { text-decoration: underline; }
 }
 
 .partner-logo-tile {
-  background: var(--dark-purple);
+  background: var(--white);
+  border: 1px solid #E8E0F0;
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
